@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om mig - Marko Bradaric</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/projects.css">
+</head>
+<body class="swedish">
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-left">
+            <a href="index.html" class="logo">
+                <span class="logo-thick">Marko Bradaric</span>
+                <span class="logo-thin"> / Portfolio</span>
+            </a>
+        </div>
+        
+        <div class="nav-center">
+            <a href="index.html" class="nav-link">
+                <span class="swedish">Portfolio</span>
+                <span class="english">Portfolio</span>
+            </a>
+            <a href="about.html" class="nav-link active">
+                <span class="swedish">Om mig</span>
+                <span class="english">About</span>
+            </a>
+        </div>
+        
+        <div class="nav-right">
+            <div class="language-toggle">
+                <button class="lang-btn" id="langToggle">English</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Page Content -->
+    <div class="about-page">
+        <a href="index.html" class="back-btn">
+            <i class="fas fa-arrow-left"></i>
+            <span class="swedish">Tillbaka till Portfolio</span>
+            <span class="english">Back to Portfolio</span>
+        </a>
+        
+        <div class="about-content">
+            <div class="about-header">
+                <h1 class="section-title swedish">Om mig</h1>
+                <h1 class="section-title english">About me</h1>
+                
+                <div class="about-image">
+                    <img src="markoportfolio.png" alt="Marko Bradaric" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin: 30px auto; display: block; border: 5px solid var(--color-accent);">
+                </div>
+            </div>
+            
+            <div class="about-text">
+                <p class="swedish">Jag heter Marko Bradaric, är 21 år och studerar IT, medier och design på Södertörns högskola...</p>
+                <!-- Fortsätt med resten av din text -->
+                
+                <p class="english">My name is Marko Bradaric, I'm 21 years old and I study IT, Media and Design at Södertörn University...</p>
+                <!-- Fortsätt med engelsk text -->
+            </div>
+            
+            <div class="contact-info" style="margin-top: 50px; text-align: center;">
+                <h3 style="margin-bottom: 30px; font-family: 'Montserrat', sans-serif;">Kontakt</h3>
+                
+                <div style="display: flex; flex-direction: column; gap: 15px; align-items: center;">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+46 79 201 74 81</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>markobradaric5@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/marko-bradaric-48a245311</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p class="footer-text swedish">Kontakta mig för samarbeten eller frågor om mina projekt</p>
+            <p class="footer-text english">Contact me for collaborations or questions about my projects</p>
+            
+            <div class="contact-info">
+                <a href="mailto:marko@example.com" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>marko@example.com</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+            
+            <p style="margin-top: 40px; opacity: 0.7;">© 2023 Marko Bradaric</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/language.js"></script>
+</body>
+</html>
